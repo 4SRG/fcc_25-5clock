@@ -4,8 +4,8 @@ import Timer from './timer';
 
 
 const Main = () => {
-    const [sessionTime, setSessionTime] = useState(0.1)
-    const [breakTime, setBreakTime] = useState(0.1)
+    const [sessionTime, setSessionTime] = useState(25)
+    const [breakTime, setBreakTime] = useState(5)
     const [isPaused, setIsPaused] = useState(true)
 
     function breakDown() {
